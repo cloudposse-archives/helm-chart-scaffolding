@@ -3,8 +3,8 @@ description: Helm Chart
 name: helm-chart-scaffolding
 version: 0.1.0
 appVersion: 0.0.1
-home: https://github.com/cloudposse/helm-starter
-icon: https://raw.githubusercontent.com/chartmuseum/chartmuseum/master/logo.png
+home: https://github.com/cloudposse/helm-chart-scaffolding
+icon: https://raw.githubusercontent.com/cloudposse/helm-chart-scaffolding/master/logo.png
 maintainers:
 - name: Cloud Posse
   email: hello@cloudposse.com
