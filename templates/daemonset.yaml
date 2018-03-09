@@ -3,7 +3,7 @@ kind: DaemonSet
 metadata:
   name: {{ include "common.fullname" . }}
   annotations:
-{{ toYaml .Values.deamonset.annotations | indent 4 }}
+{{ toYaml .Values.daemonset.annotations | indent 4 }}
   labels:
 {{ include "common.labels.standard" . | indent 4 }}
 spec:
@@ -11,7 +11,7 @@ spec:
     metadata:
       name: {{ include "common.fullname" . }}
       annotations:
-{{ toYaml .Values.deamonset.pod.annotations | indent 8 }}
+{{ toYaml .Values.daemonset.pod.annotations | indent 8 }}
       labels:
         app: {{ template "common.name" . }}
         release: {{ .Release.Name | quote }}
