@@ -1,8 +1,8 @@
 apiVersion: v1
 description: Helm Chart
 name: helm-chart-scaffolding
-version: {{ (datasource "semver").version }}
-appVersion: {{ (datasource "semver").version }}
+version: 0.1.0
+appVersion: 0.1.0
 home: https://github.com/cloudposse/helm-chart-scaffolding
 icon: https://raw.githubusercontent.com/cloudposse/helm-chart-scaffolding/master/logo.png
 maintainers:
