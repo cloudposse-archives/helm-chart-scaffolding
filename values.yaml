@@ -1,7 +1,7 @@
 replicaCount: 1
 image:
   repository: nginx
-  tag: {{ (datasource "semver").version }}
+  tag: 0.1.0
   pullPolicy: IfNotPresent
   pullSecrets:
 config:
